@@ -1,0 +1,10 @@
+Library/
+Temp/
+.vs/
+
+*.csproj
+*.sln
+
+!*.dll
+!*.pdb
+obj/
