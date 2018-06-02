@@ -8,21 +8,10 @@ public class Spawner : MonoBehaviour {
 	void Start () {
 		
 	}
-    public int points;
-    public int pointsPerBalloon;
     public float rate;
     public GameObject prefab;
     public float range;
     float TheTimer=0;
-    public void AddPoints()
-    {
-        points += pointsPerBalloon;
-        var x = GameObject.FindObjectsOfType<UpdateGUI>();
-        foreach (var item in x)
-        {
-            item.GUI();
-        }
-    }
 
 	void Update () {
         TheTimer += Time.deltaTime;
