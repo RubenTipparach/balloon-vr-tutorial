@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Wren/Menu.unity
+    guid: 15b5591c087545d41aa8dca9093f2522
+  - enabled: 1
+    path: Assets/Wren/Balloon.unity
+    guid: c084ece1fc617d04eb28a1f25c09d7d5
   m_configObjects: {}
